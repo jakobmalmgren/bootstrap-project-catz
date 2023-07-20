@@ -1,0 +1,118 @@
+.nav-link,
+p {
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+}
+.nav-link {
+  font-weight: bold;
+}
+.icon img {
+  width: 40px;
+}
+.s-span {
+  font-family: "Smooch", cursive;
+  font-size: 150px;
+}
+h2,
+h3 {
+  font-family: "Indie Flower", cursive;
+  font-size: 50px;
+}
+.aboutUs_wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card-title,
+h6 {
+  font-family: "Indie Flower", cursive;
+  font-weight: bold;
+  font-size: 20px;
+}
+.btn,
+input,
+label {
+  font-family: "Indie Flower", cursive;
+}
+
+#inputState {
+  font-family: "Indie Flower", cursive;
+}
+.btn {
+  background: white;
+  color: black;
+}
+.btn:hover {
+  background-color: #212529;
+}
+
+h5 {
+  font-family: "Syncopate", sans-serif;
+  font-size: 150px;
+}
+
+.carousel-caption p {
+  font-family: "Babylonica", cursive;
+  font-size: 60px;
+}
+
+.carousel-caption {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  h5 {
+    font-size: 115px;
+  }
+  .carousel-caption p {
+    font-size: 35px;
+  }
+  .s-span {
+    font-family: "Smooch", cursive;
+    font-size: 115px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  h5 {
+    font-size: 85px;
+  }
+  .carousel-caption p {
+    font-size: 30px;
+  }
+  .s-span {
+    font-family: "Smooch", cursive;
+    font-size: 85px;
+  }
+
+  @media screen and (max-width: 500px) {
+    h5 {
+      font-size: 55px;
+    }
+    .carousel-caption p {
+      font-size: 25px;
+    }
+  }
+  .s-span {
+    font-family: "Smooch", cursive;
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .carousel-caption-wrapper {
+    margin-top: 60px;
+  }
+  h5 {
+    font-size: 35px;
+  }
+  .carousel-caption p {
+    font-size: 20px;
+  }
+  .s-span {
+    font-family: "Smooch", cursive;
+    font-size: 35px;
+  }
+}
